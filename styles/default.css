@@ -1,0 +1,70 @@
+body {
+	min-width: 1050px;
+}
+
+
+.messageSection, .notificationsSection {
+	border: 1px solid grey;
+	box-sizing: border-box;
+
+	word-wrap: break-word;
+}
+.messageSection img {
+	max-width: 80% !important;
+	max-height: 80% !important;
+}
+
+.newSmth {
+	border: 2px solid orange;
+}
+.specialColor {
+	color: #e67e22;
+}
+
+.success {
+	color: #2ECC71;
+} 
+.danger {
+	color: #DB8A74;
+}
+
+.banned-text {
+	text-decoration: line-through;
+}
+.muted-text {
+	color: #b2bec3;
+}
+
+.inlineHeading h4 {
+	display: inline-block;
+}
+
+.row {
+	flex-wrap: flex;
+	display: flex;
+}
+.f-33 {
+	flex: calc(33.3333333% - 20px);
+	width: calc(33.3333333% - 20px);
+
+	margin: 0 10px;
+}
+
+.centered {
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+.centered-text {
+	text-align: center;
+}
+.credit-block {
+	flex: 16.666666;
+}
+
+.def-success {
+
+}
+.def-danger {
+
+}
