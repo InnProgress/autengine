@@ -1,9 +1,9 @@
 <?php
 
-	const hostName = "localhost";
-	const hostUser = "id9399400_autdata_db	";
-	const hostUserPassword = "dainostarm";
-	const hostDatabase = "id9399400_autdata_db";
+	const hostName = "*******";
+	const hostUser = "*******";
+	const hostUserPassword = "*****";
+	const hostDatabase = "******";
 
 	$connection = new mysqli(hostName, hostUser, hostUserPassword, hostDatabase);
 
